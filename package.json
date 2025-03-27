@@ -1,19 +1,20 @@
 {
-  "name": "url_shortner",
+  "name": "backend",
   "version": "1.0.0",
+  "description": "first version",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^4.21.1",
-    "mongoose": "^8.8.2",
-    "nanoid": "^5.0.8",
-    "nodemon": "^3.1.7",
-    "shortid": "^2.2.16"
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2",
+    "nanoid": "^5.1.5",
+    "nodemon": "^3.1.9",
+    "shortid": "^2.2.17"
   }
 }
